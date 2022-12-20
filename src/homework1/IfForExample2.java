@@ -2,13 +2,18 @@ package homework1;
 
 public class IfForExample2 {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 40;
-        if (a<b);
-        System.out.println();
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j <=i ; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
+        }
     }
-}
+
+
+
 
 
 
