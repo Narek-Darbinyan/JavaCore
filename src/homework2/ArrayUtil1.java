@@ -11,5 +11,7 @@ public class ArrayUtil1 {
         }
         System.out.println("max:"+max);
 
+
     }
+
 }
