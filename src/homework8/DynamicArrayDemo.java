@@ -4,8 +4,6 @@ public class DynamicArrayDemo {
     public static void main(String[] args) {
         DynamicArray dy=new DynamicArray();
         dy.add(6);
-        dy.add(67);
-        dy.add(33);
         dy.add(33);
         dy.add(78);
         dy.add(48);
@@ -16,7 +14,7 @@ public class DynamicArrayDemo {
         dy.add(66);
         dy.add(88);
         dy.add(14);
-        System.out.print(dy);
+        dy.print();
 
 
     }
