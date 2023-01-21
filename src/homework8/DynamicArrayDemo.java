@@ -15,6 +15,7 @@ public class DynamicArrayDemo {
         dy.add(88);
         dy.add(14);
         dy.print();
+        System.out.println(dy);
 
 
     }
