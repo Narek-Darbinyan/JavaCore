@@ -4,6 +4,9 @@ public class DynamicArray {
     int[] array = new int[10];
     int size;
 
+    public DynamicArray(int i) {
+    }
+
     void add(int value) {
         if (size == array.length) {
             extend();
@@ -32,5 +35,13 @@ public class DynamicArray {
             System.out.print(array[i] + " ");
         }
     }
+
+    public void deleteByIndex(int index) {
+        for (int i=index+3; i<size;i++){
+            array[i-1]=array[i];
+        }
+        size--;
+    }
+
 
 }

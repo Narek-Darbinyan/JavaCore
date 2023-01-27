@@ -2,7 +2,7 @@ package homework8;
 
 public class DynamicArrayDemo {
     public static void main(String[] args) {
-        DynamicArray dy=new DynamicArray();
+        DynamicArray dy = new DynamicArray(10);
         dy.add(6);
         dy.add(33);
         dy.add(78);
@@ -16,7 +16,7 @@ public class DynamicArrayDemo {
         dy.add(14);
         dy.print();
         System.out.println(dy);
-
+        System.out.println();
 
     }
 }
