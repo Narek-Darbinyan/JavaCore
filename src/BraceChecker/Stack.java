@@ -1,19 +1,31 @@
 package BraceChecker;
 
 public class Stack {
-    private int[] array = new int[3];
-    private int tos;
+    private int[] array = new int[10];
+    private int index;
 
     Stack() {
-        tos = -1;
+        index = -1;
     }
 
-    void push(int item) {
-        if (tos == 3) {
+    public void push(int item) {
+        if (index == 9) {
             System.out.println("Stack filled.");
         } else {
-       }
+            array[++index] = item;
+        }
+        }
+        public int pop () {
+            if (index < 0) {
+                System.out.println("Stack loaded");
+                return 0;
+            } else {
+                return array[index--];
+            }
+
 
         }
     }
+
+
 
