@@ -45,9 +45,9 @@ public class BraceChecker {
                     break;
 
             }
+        }
 
         }
 
     }
 
-}
